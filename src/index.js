@@ -472,6 +472,7 @@ class DropDownPicker extends React.Component {
                                 }}
                             >
                                 <TouchableOpacity
+                                    testID={this.props.testID}
                                     key={index}
                                     onPress={() => this.select(item)}
                                     style={[styles.dropDownItem, this.props.itemStyle, (
